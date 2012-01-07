@@ -1,4 +1,3 @@
-
 var fluxbb_smilies = {
 	':)' : 'smile.png',
 	'=)' : 'smile.png',
