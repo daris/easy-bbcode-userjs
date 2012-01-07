@@ -265,5 +265,6 @@ function bbcode_onload()
 	{
 		document.forms[0].setAttribute('id', 'ticket-form');
 		show_bbcode_bar('ticket-form', 'comment', 1, 'ticket-history');
+		show_bbcode_bar('ticket-form', 'description', 1);
 	}
 }
