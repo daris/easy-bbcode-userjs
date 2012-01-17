@@ -230,7 +230,7 @@ ebbc =
 				postfootright = ebbc.getElementsByClassName('postfootright', blockposts[i])[0];
 				ul = postfootright.getElementsByTagName('ul')[0];
 				quote = ebbc.getElementsByClassName('postquote', ul)[0];
-				a = quote.getElementsByTagName('a');
+				a = quote.getElementsByTagName('a')[0];
 
 				ul.innerHTML += '<li class="postquickquote"><span><a onmousedown="ebbc.getQuoteText();" onclick="ebbc.quote(\'' + form + '\', \'' + msgfield + '\', \'' + id + '\'); return false;" href="' + a.href + '">&quot; &quot;</a></span></li>';
 			}
