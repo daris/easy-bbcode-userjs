@@ -185,7 +185,7 @@ ebbc =
 		{
 			html += '<div style="float: right; margin-top: 4px; margin-right: 10px">';
 			for (s in ebbc.fluxbb_smilies)
-				html += '<img onclick="ebbc.insertText(\'' + s + '\', \'\');" src="img/smilies/' + ebbc.fluxbb_smilies[s] + '" width="15" height="15" style="margin-right: 3px" alt="' + s + '" title="' + s + '" />';
+				html += '<img onclick="ebbc.insertText(document.getElementById(\'' + form + '\').elements[\'' + msgfield + '\'], \'' + s + '\', \'\');" src="img/smilies/' + ebbc.fluxbb_smilies[s] + '" width="15" height="15" style="margin-right: 3px" alt="' + s + '" title="' + s + '" />';
 			html += '</diV>';
 		}
 
